@@ -49,7 +49,7 @@ local Shadow = Instance.new("TextLabel")
 --Properties:
 
 TheGUI.Name = "The GUI"
-TheGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TheGUI.Parent = game.CoreGui
 TheGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = TheGUI
