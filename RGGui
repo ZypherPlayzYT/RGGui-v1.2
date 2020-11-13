@@ -607,8 +607,8 @@ local function CLMXWF_fake_script() -- TheGUI.LocalScript
 			game:GetService("StarterGui"):SetCore("SendNotification", {
 				Title = "Loaded!";
 				Text = "You are checked as whitelisted! Enjoy the GUI! :D";
-				Button1 = "Okay"
-				Duration = 3;
+				Button = "Okay";
+				Duration = 8;
 			})
 	
 			wait(2) 
@@ -795,7 +795,7 @@ local function CLMXWF_fake_script() -- TheGUI.LocalScript
 	end)
 	
 	FEVR.MouseButton1Down:Connect(function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/uZWAvTxCd", true))()
+		loadstring(game:HttpGet("https://pastebin.com/raw/26XCZPAE", true))()
 	end)
 	
 	Hats.MouseButton1Down:Connect(function()
